@@ -1,36 +1,124 @@
-# 🌐 Campus Navigation System for JXNU  
+# 🌐 Campus Navigation System for JXNU
+
 ### 🎓 江西师范大学瑶湖校区 · 校园导航系统设计
 
+```{=html}
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tkinter-UI-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
+```
+`<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge" />`{=html}
+`<img src="https://img.shields.io/badge/Tkinter-UI-green?style=for-the-badge" />`{=html}
+`<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />`{=html}
+```{=html}
 </p>
-
-<p align="center">  
-一个面向江西师范大学瑶湖校区的本地校园导航系统，提供地图展示、最短路径规划、推荐节点等功能。  
+```
+```{=html}
+<p align="center">
+```
+一个面向江西师范大学瑶湖校区的本地校园导航系统，提供地图展示、最短路径规划、推荐节点等功能。
+```{=html}
 </p>
+```
 
----
+------------------------------------------------------------------------
 
 ## 📌 项目简介
 
-本项目旨在为 **江西师范大学瑶湖校区** 提供一个简洁、轻量、易于拓展的 **桌面端校园导航系统**。  
-使用 **Python + Tkinter** 构建，具备路径规划、节点推荐、地图交互等功能。
+本项目旨在为 **江西师范大学瑶湖校区** 提供一个简洁、轻量、易拓展的
+**桌面端校园导航系统**。\
+使用 **Python + Tkinter**
+构建，具备路径规划、节点推荐、地图交互等核心能力。
 
----
+------------------------------------------------------------------------
 
 ## ✨ 功能特性
 
-- 🗺 **等比缩放校园地图**，避免图像拉伸  
-- 📍 **地图节点加载与路径自动读取**  
-- 🔍 **最短路径规划（支持多节点）**  
-- ⭐ **智能推荐节点功能**  
-- 💬 **全局弹窗居中**  
-- 🎨 UI 样式采用 Adobe 风格（深色、现代）  
+-   🗺 **等比缩放校园地图**，避免图像变形\
+-   📍 **自动加载地图节点与路径**\
+-   🔍 **支持最短路径规划（Dijkstra）**\
+-   ⭐ **智能推荐节点功能**\
+-   💬 **全局弹窗居中、布局优化**\
+-   🎨 **Adobe 风格 UI 重新设计**
 
----
+------------------------------------------------------------------------
 
-## 🖼 项目界面预览（你可替换为真实截图）
+## 🖼 项目界面预览
 
+```{=html}
 <p align="center">
+```
+`<img src="https://via.placeholder.com/600x350?text=Campus+Navigation+UI+Preview" width="70%" />`{=html}
+`<br/>`{=html} `<em>`{=html}主界面示意图`</em>`{=html}
+```{=html}
+</p>
+```
+
+------------------------------------------------------------------------
+
+## 📂 项目结构
+
+    Campus-Navigation-System-for-JXNU/
+    │
+    ├── data/
+    │   ├── campus.png              # 校园地图资源
+    │   ├── nodes.csv          # 地图节点数据
+    │   └── edges.csv           # 地图路径数据
+    │
+    ├── campus_navigation_ui.py  # 主程序（UI + 逻辑）
+    ├── utils.py                 # 工具函数模块
+    ├── README.md                # 项目说明
+    └── requirements.txt         # 项目依赖
+
+------------------------------------------------------------------------
+
+## 🚀 使用说明
+
+### 1. 安装依赖
+
+``` bash
+pip install -r requirements.txt
+```
+
+### 2. 运行主程序
+
+``` bash
+python campus_navigation_stable.py
+```
+
+------------------------------------------------------------------------
+
+## 📝 更新日志
+
+### **2025.12.04 18:00**
+
+-   更新路径数据\
+-   添加 **推荐节点** 功能\
+-   调整算法确保地图 **等比缩放**\
+-   修复文字无法显示的 Bug\
+-   优化 UI 结构与配色
+
+### **2025.11.13 16:41**
+
+-   上传原始文件
+
+------------------------------------------------------------------------
+
+## 🛠 技术说明
+
+-   **UI 构建**：Tkinter\
+-   **最短路径算法**：Dijkstra\
+-   **图像处理**：Pillow（等比缩放）\
+-   **数据结构**：CSV（可扩展节点与路径）
+
+------------------------------------------------------------------------
+
+## 📮 Roadmap（未来计划）
+
+-   [ ] 多楼层地图切换支持\
+-   [ ] 可视化节点/路径编辑器\
+-   [ ] Web 版本（React + Leaflet）
+
+------------------------------------------------------------------------
+
+## 🤝 贡献
+
+欢迎提交 Issue 或 Pull Request，共同完善项目！
