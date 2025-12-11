@@ -1,23 +1,6 @@
-# 🌐 Campus Navigation System for JXNU
+# 🎓 Campus Navigation System for JXNU
+江西师范大学瑶湖校区 · 校园导航系统设计
 
-### 🎓 江西师范大学瑶湖校区 · 校园导航系统设计
-
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge" />`{=html}
-`<img src="https://img.shields.io/badge/Tkinter-UI-green?style=for-the-badge" />`{=html}
-`<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-一个面向江西师范大学瑶湖校区的本地校园导航系统，提供地图展示、最短路径规划、推荐节点等功能。
-```{=html}
-</p>
-```
 
 ------------------------------------------------------------------------
 
